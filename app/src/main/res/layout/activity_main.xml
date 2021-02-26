@@ -19,12 +19,22 @@
         android:textColor="@color/white"
         android:textStyle="bold" />
 
+    <!--text view; article sub heading added    -->
+    <TextView
+        android:id="@+id/article_subheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_regular"
+        android:text="@string/article_subtitle"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+        android:layout_below="@+id/article_heading" />
+
 
     <!-- Scroll view created   -->
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/article_heading">
+        android:layout_below="@+id/article_subheading">
 
         <!--        linear layout-->
         <LinearLayout
@@ -32,14 +42,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <!--text view; article sub heading added    -->
-            <TextView
-                android:id="@+id/article_subheading"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/article_subtitle"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault" />
 
 
             <!--text view; article text    -->
