@@ -31,30 +31,42 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="horizontal">
 
-            <!--text view; article sub heading added    -->
-            <TextView
-                android:id="@+id/article_subheading"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/article_subtitle"
-                android:textAppearance="@android:style/TextAppearance.DeviceDefault"
-                 />
+                android:orientation="vertical">
+                <!--text view; article sub heading added    -->
+                <TextView
+                    android:id="@+id/article_subheading"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/padding_regular"
+                    android:text="@string/article_subtitle"
+                    android:textAppearance="@android:style/TextAppearance.DeviceDefault"
+                    />
+
+            </LinearLayout>
 
 
-            <!--text view; article text    -->
-            <TextView
-                android:id="@+id/article"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:autoLink="web"
-                android:lineSpacingExtra="@dimen/line_spacing"
-                android:padding="@dimen/padding_regular"
-                android:text="@string/article_text"
+                android:orientation="vertical">
+                <!--text view; article text    -->
+                <TextView
+                    android:id="@+id/article"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:lineSpacingExtra="@dimen/line_spacing"
+                    android:padding="@dimen/padding_regular"
+                    android:text="@string/article_text"
 
-                />
+                    />
+            </LinearLayout>
+
         </LinearLayout>
 
    </ScrollView>
