@@ -37,7 +37,7 @@
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <!--text view; article sub heading added    -->
+                text view; article sub heading added
                 <TextView
                     android:id="@+id/article_subheading"
                     android:layout_width="match_parent"
@@ -67,8 +67,20 @@
                     />
             </LinearLayout>
 
+            <Button
+                android:id="@+id/add_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="287dp"
+                android:layout_marginBottom="10dp"
+                android:text="Add Comment" />
         </LinearLayout>
 
+
    </ScrollView>
+
+
 
 </RelativeLayout>
