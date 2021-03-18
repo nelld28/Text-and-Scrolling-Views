@@ -1,7 +1,7 @@
 # Text-and-Scrolling-Views
 
 <h2>scroll</h2>
-<img src = "Screenshot_scrolling.png" width = 150>
+<img src = "screenshots/Screenshot_scrolling.png" width = 150>
 <h2>code challenge</h2>
 <img src = "screenshots/codechall.png" width = 150>
 <h2> honework</h2>
